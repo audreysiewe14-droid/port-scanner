@@ -1,53 +1,62 @@
-# Port Scanner
+# 🕵️‍♀️ Port Scanner — by Audrey
 
-Un scanner de ports simple construit en Python from scratch.
+> *"To defend a system, you must first understand how it can be attacked."*
 
-## Description
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Security](https://img.shields.io/badge/Ethical-Hacking-red)
+![Status](https://img.shields.io/badge/Status-Active-green)
 
-C'est un outil de reconnaissance reseau qui scanne les 1024 premiers ports d'une machine cible et affiche les ports ouverts avec leur service associe.
+---
 
-## Technologies
+## 🎯 C'est quoi ?
 
--Python 3
--Module socket
--Module sys
--Module datetime
+Un scanner de ports construit **from scratch** en Python pur.
+Pas de Nmap. Pas de bibliothèques externes. Juste du code et de la logique réseau.
 
-##Installation
+---
 
-\bash
-git clone https://github.com/audreysiewe14-droid/port-scanner.git
-cd port_scanner
-\
+## ⚡ Fonctionnalités
 
-##Utilisation
+- 🔍 Scanne les 1024 premiers ports d'une cible
+- 🏷️ Identifie automatiquement le service associé
+- ⏱️ Affiche la durée totale du scan
+- 💻 Utilisation simple en ligne de commande
 
-\bash
+---
+
+## 🚀 Utilisation
+
+```bash
 python3 port_scanner.py <adresse_ip>
-\
+```
 
-###Exemple
-\bash
+### Exemple
+```bash
 python3 port_scanner.py 127.0.0.1
-\
+```
 
-##Resultat attendu
-
-\
+### Résultat
 Scan de 127.0.0.1
-Debut:14:32:10
-------------------------------
-[+]Port 631 Ouvert -> ipp
-------------------------------
-Fin:14:34:25
-Duree:0:02:15
+Début : 21:00:00
+──────────────────────────────
+[+] Port   631 OUVERT  →  ipp
+──────────────────────────────
+Fin : 21:02:15
+Durée : 0:02:15
+Scan terminé !
 
-Scan termine!
-\
+---
 
-##Avertissement
-Cet outil est destine uniquement a des fins educatives.
-Nejamais scanner des machines  sans autorisation explicite.
+## ⚠️ Avertissement légal
 
-##Auteure
-**Audrey** --Etudiante en L2 informatique,future experte en cybersecurite 
+> Cet outil est destiné **uniquement** à des fins éducatives et de tests
+> sur des systèmes dont vous avez l'autorisation explicite.
+> Toute utilisation malveillante est illégale et contraire à l'éthique.
+
+---
+
+## 👩‍💻 Auteure
+
+**Audrey** — Étudiante L2 Informatique · Future experte en cybersécurité 🛡️
+
+*Yaoundé, Cameroun 🇨🇲 → Europe 🌍*
